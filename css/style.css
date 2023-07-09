@@ -1,0 +1,77 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url("../banner/banner3.png");
+    position: relative;
+    height: 810px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-description{
+    max-width: 50%;
+    right: 0;
+    text-align: right;
+    position: absolute;
+    padding: 200px 120px;
+}
+.banner-header{
+    line-height: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 45px;
+}
+.banner-title{
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 0;
+    padding: 0 0 0 350px;
+}
+.btn{
+    color: #005FAC;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.person-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 50px;
+}
+.person-image, .person-details{
+    width: 50%;
+}
+.person-header{
+    color: #151414;
+    font-size: 35px;
+    font-weight: 700;
+}
+.person-title{
+    color: #444343;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0 200px 0 0;
+}
+.list-item{
+    list-style: none;
+    color: #444343;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.fa-solid{
+    color: #16D887;
+}
