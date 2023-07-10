@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/*-----------banner style section start--------*/
 .banner{
     background-image: url("../banner/banner3.png");
     position: relative;
@@ -44,11 +45,15 @@ body{
     background-color: #fff;
     border-radius: 5px;
 }
+/*-----------banner section style end--------*/
+
+/*-----------about section style start-------------*/
 .person-section{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 40px 50px;
+    margin-bottom: 30px;
 }
 .person-image, .person-details{
     width: 50%;
@@ -75,3 +80,36 @@ body{
 .fa-solid{
     color: #16D887;
 }
+/*-----------about section style end-------------*/
+
+/*-----------plan section style start-------------*/
+.my-plan{
+    padding: 30px 100px;
+}
+.plan-heading{
+    color:  #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.plan-title{
+    color: #151414;
+    text-align: center;;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.plan-desc{
+    color: #737272;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0;
+}
+/*-----------plan section style end-------------*/
