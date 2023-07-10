@@ -1,13 +1,14 @@
-*{
+* {
     font-family: 'Work Sans', sans-serif;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
+
 /*-----------banner style section start--------*/
-.banner{
+.banner {
     background-image: url("../banner/banner3.png");
     position: relative;
     height: 810px;
@@ -16,27 +17,31 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner-description{
+
+.banner-description {
     max-width: 50%;
     right: 0;
     text-align: right;
     position: absolute;
     padding: 200px 120px;
 }
-.banner-header{
+
+.banner-header {
     line-height: 55px;
     color: #ffffff;
     font-weight: 700;
     font-size: 45px;
 }
-.banner-title{
+
+.banner-title {
     line-height: 20px;
     color: #ffffff;
     font-size: 12px;
     margin-top: 0;
     padding: 0 0 0 350px;
 }
-.btn{
+
+.btn {
     color: #005FAC;
     font-size: 12px;
     font-weight: 400;
@@ -45,71 +50,129 @@ body{
     background-color: #fff;
     border-radius: 5px;
 }
+
 /*-----------banner section style end--------*/
 
 /*-----------about section style start-------------*/
-.person-section{
+.person-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 40px 50px;
     margin-bottom: 30px;
 }
-.person-image, .person-details{
+
+.person-image,
+.person-details {
     width: 50%;
 }
-.person-header{
+
+.person-header {
     color: #151414;
     font-size: 35px;
     font-weight: 700;
 }
-.person-title{
+
+.person-title {
     color: #444343;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
     padding: 0 200px 0 0;
 }
-.list-item{
+
+.list-item {
     list-style: none;
     color: #444343;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
 }
-.fa-solid{
+
+.fa-solid {
     color: #16D887;
 }
+
 /*-----------about section style end-------------*/
 
 /*-----------plan section style start-------------*/
-.my-plan{
+.my-plan {
     padding: 30px 100px;
 }
-.plan-heading{
-    color:  #151414;
+
+.plan-heading {
+    color: #151414;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 40px;
 }
-.plans{
+
+.plans {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin-bottom: 30px;
 }
-.plan-title{
+
+.plan-title {
     color: #151414;
-    text-align: center;;
+    text-align: center;
+    ;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.plan-desc{
+
+.plan-desc {
     color: #737272;
     font-size: 12px;
     font-weight: 400;
     margin-top: 0;
 }
+
+.mind-setup {
+    background-image: url("../images/watch.png"),
+    linear-gradient(90deg, #1d8ce7 0%, rgba(8, 153, 197, 0.952) 100%);
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    max-width: 80%;
+    margin: auto;
+    height: 200px;
+}
+.mnd-header{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 600;
+}
+.btn-mnd{
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.footer-future{
+    width: 40%;
+}
+.footer-subscrib{
+    60%
+}
+
+/*-----------plan section style end-------------*/
+
+/*-----------plan section style end-------------*/
 /*-----------plan section style end-------------*/
