@@ -162,14 +162,56 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
     margin: auto;
+    background: #151414;
 }
 .footer-future{
-    width: 40%;
+    padding: 30px 0 0 0;
 }
-.footer-subscrib{
-    60%
+.footer-subscribe{
+    padding: 0 40px 0 0;
+}
+.footer-header{
+    color: #F8F8F8;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+}
+small{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+}
+.subscriber-header{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -100px;
+    
+}
+input[type="email"]{
+    background: #151414;
+    margin-top: -20px;
+    border: 1px solid #fff;
+    color: #F3F3F3;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 8px;
+    background: #005FAC;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
 }
 
 /*-----------plan section style end-------------*/
